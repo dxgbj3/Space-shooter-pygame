@@ -28,7 +28,7 @@ goal=100
 lost=0
 max_lost=3
 
-#Creating main class
+#Creating main class 
 class GameSprite(sprite.Sprite):
    def __init__(self, player_image, player_x, player_y,size_x, size_y, player_speed):
        sprite.Sprite.__init__(self)
